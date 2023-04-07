@@ -3,7 +3,7 @@ echo
 echo -e "033[97mPackets/s \033[36m{}\n\033[97mBytes/s \033[36m{}\n\033[97mKbp/s \033[36m{}\n\033[97mGbp/s \033[36m{}\n\033[97mMbp/s \033[36m{}"
 interface=eth0
 dumpdir=/root/dumps
-url='https://discord.com/api/webhooks/1007477321931968592/d1fhY9fukvK3IUEWCr7VE_1e2Fm6QBkB6Ugg8vEP7lINZ_UpQf0vgZRwPJ6_eAJ3KZ_8' ## Change this to your Webhook URL
+url='https://discord.com/api/webhooks/1093934898273849395/eEdfUR9qP5YS6OYrOPkYIzlyUaEV5NWnhoTDVd0quAkNh_rKQ8rwE93-zgSWJWIt1UiH' ## Change this to your Webhook URL
 while /bin/true; do
   old_bs=`grep $interface: /proc/net/dev | cut -d :  -f2 | awk '{ print $1 }'`
   
